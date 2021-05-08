@@ -3,7 +3,6 @@ body{
     text-align:center;
     font-family: 'Merriweather', serif;
     color:#40514E;
-    width:100%;
 }
 
 h1{
@@ -158,4 +157,29 @@ hr{
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+
+ @media (max-width: 600px){
+     .mountain{
+         width:100%;
+     }
+
+     .intro{
+         width:50%;
+     }
+
+    .contact-message{
+        width:50%;
+    }
+    
+ }
+
+ @media(max-width:590px){
+    .bottom-cloud{
+        position: initial;
+    }
+
+    .top-cloud{
+        position:initial;
+    }
  }
